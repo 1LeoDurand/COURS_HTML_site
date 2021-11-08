@@ -1,0 +1,96 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+/* Header */
+
+header{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 20px 20px 20px 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    list-style-type: none; 
+	display: flex;
+}
+
+nav li {
+    margin: 0px 30px 0 20px;
+}
+
+#bluelineup {
+    border-top: 2px solid blue;
+}
+
+#logo{
+	display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-left: 30px;
+    align-items: center;
+}
+
+/* Corps */
+#container1 {
+	display: flex;
+	flex-direction: row;
+	column-gap: 15px;
+}
+
+#hebergementsamarseille {
+	background-color: gainsboro;
+	width: 66%;
+}
+
+#lespluspopulaires {
+	background-color: gainsboro;
+	width: 33%;
+}
+
+/* Footer */
+footer{
+    display: flex;
+    padding-top: 25px;
+	background-color: gainsboro;
+}
+
+footer p, footer ul{
+    font-size: 0.8em;
+}
+
+footer h2{
+    font-size: 1.1em;
+}
+
+
+#apropos{
+    width: 33%;
+}
+
+#noshebergements{
+    width: 33%;
+}
+
+#assistance{
+    width: 33%;
+}
+
+footer ul{
+    list-style-type: none; 
+}
+
+/* Global */
+
+@font-face
+{
+	font-family: 'FiraSans-Heavy';
+	src: url('C:/Users/1leod/Documents/Open_classrooms/2_Realisez_une_maquette_en_html_css/COURS_HTML/FiraSans-Heavy.ttf') format('ttf'),
+	url('C:/Users/1leod/Documents/Open_classrooms/2_Realisez_une_maquette_en_html_css/COURS_HTML/FiraSans-HeavyItalic.otf') format('otf');
+}
